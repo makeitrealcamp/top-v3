@@ -1,0 +1,23 @@
+{
+  "name": "top-v3",
+  "version": "1.0.0",
+  "description": "TOP V3 - Coding exercises",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/makeitrealcamp/top-v3.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/makeitrealcamp/top-v3/issues"
+  },
+  "homepage": "https://github.com/makeitrealcamp/top-v3#readme",
+  "devDependencies": {
+    "jest": "^24.9.0"
+  }
+}
