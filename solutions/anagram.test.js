@@ -8,6 +8,9 @@
 //   else
 //     return false
 
+// Complexity: Por lo visto en la sesión de la tarde, es posible que sea O(n²)
+// por los tres métodos que se usan.
+
 // write your solution here (TDD - Test Driven Development)
 
 function anagram(str1, str2){

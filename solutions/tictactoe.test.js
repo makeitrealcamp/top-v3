@@ -1,3 +1,23 @@
+////////// Pseudocodigo //////////
+//
+// Entrada: matriz de tamaño 3
+// Salida: True si hay ganador y false en caso contrario
+//
+// si los elementos de la diagonal secundaria son iguales entre si:
+//   retorne true
+// si los elementos de la diagonal principal son iguales entre si:
+//   retorne true
+//
+// para las filas y las columnas:
+//   si los elementos de cada una de las filas son iguales entres si:
+//    retorne true
+//   si los elementos de cada una de las columnas son iguales entre si:
+//     retorne true
+//
+// retorne false
+
+// Complejidad: O(n)
+
 // write your solution here
 
 function tictactoe(m) {

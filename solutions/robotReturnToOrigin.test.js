@@ -15,6 +15,8 @@
 //2. run the string, adding or dedycting the position depending on the string
 //3. Return true if both x and y = o, false otherwise;
 
+// Complexity: O(n)
+
 function judgeCircle(moves) {
   let x = 0;
   let y = 0;
