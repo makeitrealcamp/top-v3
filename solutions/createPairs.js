@@ -40,3 +40,8 @@ var createPairs = function(array) {
 
 
 createPairs(["German", "Alveiro", "Orlando", "Valentina", "Esteban", "Maritza"])
+
+/*  Complejidad
+ *
+ *  O(n)
+ */
