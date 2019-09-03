@@ -1,10 +1,15 @@
-// write your pseudocode
-//
+function findLongestWordLength (str){
+  str = str.split(" ");
+  let longestWord = 0;
+  for (let i = 0; i < str.length; i++){
+    if(str[i].length > longestWord){
+      longestWord = str[i].length
+    }
+  }
+  return longestWord
+}
 
-// write your solution here
 
-
-// tests
 test('returns longest word length', function() {
   expect(findLongestWordLength("hi world")).toBe(5);
   expect(findLongestWordLength("the vampire serie")).toBe(7);
