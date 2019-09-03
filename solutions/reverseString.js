@@ -18,6 +18,18 @@ Output: ["h","a","n","n","a","H"]
 https://leetcode.com/problems/reverse-string/
 */
 
+/* Pseudocodigo
+Entrada: vector de caracteres
+Salida: vector al revés
+
+Para cada elemento del vector hasta la mitad de la longitud del vector, incrementando de a uno
+    en una variable temporal guardar el elemento del vector
+    en la primera posición del vector guardar el ultimo elemento
+    en la última posición guardar el primer elemento
+devolver el vector
+
+*/
+
 var reverseString = function(s) {   
     let length=s.length - 1;
     for (let i = 0; i <= Math.floor(length / 2); i++) {
