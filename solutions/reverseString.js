@@ -17,3 +17,16 @@ var reverseString = function(s) {
 };
 
 console.log(reverseString(["D","a","n","i","e","l"]));
+
+////////// Pseudocodigo //////////
+//
+// Entrada: un string
+// Salida: string ordenado al reves
+//
+// definir temp = 0
+// definir j = tamaño del string de entrada
+// para la primera mitad de los caracteres del string hacer:
+//   temp = primer caracter del string
+//   primer caracter = ultimo caracter
+//   ultimo caracter = temp
+// retornar el string modificado

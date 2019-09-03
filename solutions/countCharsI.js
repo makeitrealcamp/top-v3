@@ -20,3 +20,15 @@ function countABs(str) {
 console.log(countABs("aaabbb")); // { a: 3, b: 3 }
 console.log(countABs("abc")); // { a: 1, b: 1 }
 console.log(countABs("zxy")); // { a: 0, b: 0 }
+
+////////// Pseudocodigo //////////
+//
+// Entrada: una cadena de texto
+// Salida: un objeto que muestra cuantas "a" y "b" hay en la cadena de entrada
+//
+// definir ca y cb y hacerla igual a cero
+// para cada caracter en la cadena hacer:
+//   si el caracter es una "a" aumentar en uno ca
+//   en caso contrario si el caracter es una "b" aumentar en uno cb
+// definir un objeto donde sus elementos son "a" = ca y "b" = cb
+// retornar objeto

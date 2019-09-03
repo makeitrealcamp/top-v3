@@ -18,3 +18,16 @@ var toLowerCase = function(str) {
 
 console.log(toLowerCase("HelLo"));
 console.log(toLowerCase("HelLo WORLd"));
+
+////////// Pseudocodigo //////////
+//
+// Entrada: una cadena de texto
+// Salida: una cadena de texto con todos sus caracteres en minuscula
+//
+// definir s = ""
+// para cada caracter de la cadena hacer:
+//   definir codigo = codigo ascii
+//   si codigo está entre 65 y 91:
+//    sumar a codigo 32
+//   concatenar a s la letra que resulta del nuevo valor de codigo
+// retonar la cadena s
