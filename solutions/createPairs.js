@@ -27,4 +27,4 @@ createPairs([ "Maria", "Pedro", "Mauricio", "Eustaquio", "Vladimir", "Renan", "P
 // la funcion splice/floor/random solo hace una operación por lo que su complejidad es constante de O(1)
 // While se repite n/2 por lo que su complejidad es O(1/2n)
 // if solo hace una operación su complejidad es constante O(1)
-// la complejidad del algoritmo total es O(n) despreciando la constante 1/2
+// la complejidad del algoritmo total es O(log n) despreciando la constante 1/2
