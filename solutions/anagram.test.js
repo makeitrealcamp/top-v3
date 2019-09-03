@@ -10,6 +10,21 @@
 
 // write your solution here
 
+var anagram = function(str1, str2) {
+  str1 = str1.split("").sort().join()
+  str2 = str2.split("").sort().join()
+
+  return str1 === str2
+  /*
+  for ( i = 0; i < str1.length; i++ ) {
+    if (!str2.includes(str1.charAt(i))) {
+      return false
+    }
+  }
+  return true
+  */
+}
+
 
 // tests
 test('valid anagrams', function() {

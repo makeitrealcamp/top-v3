@@ -1,8 +1,21 @@
 // write your pseudocode
 //
+//  Input: String
+//  Output: Integer
+//
+//  Instructions:
+//    * Change the string to an array of each word
+//    * Iterate over the array to indetify the length of each positio
+//    * Return the longest world
+//
 
 // write your solution here
 
+var findLongestWordLength = function(string) {
+  var array = string.split(" ").sort((a, b) => b.length - a.length)
+
+  return array[0].length
+}
 
 // tests
 test('returns longest word length', function() {
