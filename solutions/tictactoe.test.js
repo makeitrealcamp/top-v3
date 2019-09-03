@@ -1,4 +1,21 @@
-//
+//Pseudocode
+//Input: Matrix in the format
+  // [
+  //   ['X', '', 'O'],
+  //   ['', 'X', 'O'],
+  //   ['O', '', 'X']
+  // ]
+//Output: true if there is three characters in a row, column or diagonal, false otherwise.
+//Instructions
+//1. Check if diagonal / has the same non-empty characters, if that is the case then return true
+//2. Check if diagonal \ has the same non-empty characters, if that is the case then return true
+//3. Check if rows have the same non-empty characters, if that is the case then return true
+//4. Check if colums have the same non-empty characters, if that is the case then return true
+//5. Return false
+
+//Complexity: On the worst case scenario, a square matrix of size n*n must be runned 2n+2 times,
+//each time making n operations. The total operations is in the orden of n^2 operations, the same
+//as the input size, so the algorithm has linear "O(n)" complexity.
 
 // Function tictactoe
 function tictactoe(m) {

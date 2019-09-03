@@ -5,6 +5,8 @@
 //   split string into array of words
 //   sort array using the criteria of the longest word from greatest to smallest
 //   return the lenght of the first element of the array
+//
+//Complexity: O(nlogn) given the sort() function
 
 // write your solution here
 function findLongestWordLength(str) {

@@ -12,6 +12,8 @@
 //1. Initialize the variables of position x, y = 0
 //2. run the string, adding or dedycting the position depending on the string
 //3. Return true if both x and y = o, false otherwise;
+//
+//Complexity: O(n) the array is run completely.
 
 //Function judgeCircle
 function judgeCircle(moves) {

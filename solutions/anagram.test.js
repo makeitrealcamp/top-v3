@@ -7,6 +7,7 @@
 //     return true
 //   else
 //     return false
+//Complexity: O(nlogn) given the sort() function
 
 // write your solution here
 function anagram(str1, str2) {
