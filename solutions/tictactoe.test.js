@@ -1,4 +1,31 @@
+// Complejidad O(n)
+//
+//
 // write your solution here
+//
+
+var tictactoe = function(game) {
+  for ( i = 0; i < 3; i++ ) {
+    if (game[i][0] === game[i][1] && game[i][0] === game[i][2]) {
+      return true
+    }
+    
+    if (game[0][i] === game[1][i] && game[0][i] === game[2][i]) {
+      return true
+    }
+  }
+
+  
+  if (game[0][0] === game[1][1] && game[0][0] === game[2][2]) {
+    return true
+  }
+
+  if (game[2][0] === game[1][1] && game[2][0] === game[0][2]) {
+    return true
+  }
+
+  return false
+}
 
 
 // tests
