@@ -16,3 +16,14 @@
 2. [Longest Word Length](longestWordLength.md)
 3. [Robot Return to Origin](https://leetcode.com/problems/robot-return-to-origin/). Crea algunas pruebas para este ejercicio.
 4. [TicTacToe](tictactoe.md)
+
+## Sept 4, 2019
+
+1. [Print Numbers Backwards](printNumbersBackwards.md)
+2. [Print Numbers](printNumbers.md)
+3. [Fibonacci](fibonacci.md). Escribir la solución recursiva e iterativa.
+4. [Factorial](factorial.md). Escribir la solución recursiva e iterativa.
+5. [Character Exists?](charExists.md)
+6. [Binary Search](binarySearch.md)
+7. [Count Characters](countCharsRecursive.md)
+8. [Flatten Array](flattenArray.md). Optional.
