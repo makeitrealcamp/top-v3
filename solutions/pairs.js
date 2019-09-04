@@ -1,3 +1,23 @@
+////////// Pseudocodigo //////////
+//
+// entrada: arreglo de elementos.
+// salida: lista de parejas.
+//
+// definir m, n;
+// i = tamaño del arreglo
+// mientras i > 0 :
+//   si i = 1
+//     imprima posición
+//   si no
+//     m = numero aleatorio entre 0 y el tamaño del arreglo;
+//     n = numero aleatorio entre 0 y el tamaño del arreglo;
+//     si m !== n y m > n
+//       imprimir esas dos posiciones
+//       borrar los valores de esas posiciones
+//       i = tamaño del nuevo arreglo
+
+// Complejidad: a pesar de tener dos splice es O(n)
+
 function pairs(arr) {
   var m;
   var n;
@@ -21,21 +41,3 @@ function pairs(arr) {
 
 pairs(["Jose", "Daniel", "Anderson", "German", "Martin", "Julian", "Juliana"]);
 pairs(["a", "b", "c", "d"]);
-
-////////// Pseudocodigo //////////
-//
-// entrada: arreglo de elementos.
-// salida: lista de parejas.
-//
-// definir m, n;
-// i = tamaño del arreglo
-// mientras i > 0 :
-//   si i = 1
-//     imprima posición
-//   si no
-//     m = numero aleatorio entre 0 y el tamaño del arreglo;
-//     n = numero aleatorio entre 0 y el tamaño del arreglo;
-//     si m !== n y m > n
-//       imprimir esas dos posiciones
-//       borrar los valores de esas posiciones
-//       i = tamaño del nuevo arreglo
