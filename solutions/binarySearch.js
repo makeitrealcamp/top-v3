@@ -8,7 +8,7 @@
 // (https://guias.makeitreal.camp/algoritmos/busqueda#busqueda-binaria).
 
 // What is the complexity of this algorithm?
-// R: O(log n) 
+// R: O(log n)
 
 var binarySearch = function(array, num) {
   var mid = Math.floor((array.length) / 2);
@@ -16,19 +16,19 @@ var binarySearch = function(array, num) {
     return false;
   }
 
-  if(array.length === 1) {
-    if(array[0] === num) {
-      return true;
-    } else {
-      return false;
-    }
-  }
+  // if(array.length === 1) {
+  //   if(array[0] === num) {
+  //     return true;
+  //   } else {
+  //     return false;
+  //   }
+  // }
   if(array[mid] === num) {
     return true;
   } else if(array[mid] > num) {
     return binarySearch(array.slice(0, mid), num);
   } else {
-    return binarySearch(array.slice(mid, array.length), num);
+    return binarySearch(array.slice(mid + 1, array.length), num); // a mid se le sumó 1
   }
 }
 
