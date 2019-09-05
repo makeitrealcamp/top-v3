@@ -27,3 +27,10 @@
 6. [Binary Search](binarySearch.md)
 7. [Count Characters](countCharsRecursive.md)
 8. [Flatten Array](flattenArray.md). Optional.
+
+## Sept 5, 2019
+
+1. [Add Numbers Of Array](addNumbersArray.md)
+2. [Add Numbers Of Nested Array](addNumbersNestedArray.md)
+3. [Harmonic Sum](harmonic.md)
+4. [Reverse a String](reverseRecursive.md)
