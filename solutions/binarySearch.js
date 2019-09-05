@@ -38,7 +38,7 @@ function binarySearch(list, element){
         }  
        if (end-start === 0) return false
 
-        let half= Math.floor(end-start/2); 
+        let half= Math.floor(end+start/2); 
         
         if (list[half]===element) {            
             return true;
