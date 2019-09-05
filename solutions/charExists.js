@@ -16,8 +16,8 @@ function charExists (str,letter) {
         console.log('false')
         return false
     }
-    str2=Array.from(str).splice(0,1).join('')   
-    if(str2==letter){
+    str2=str[0]//Array.from(str).splice(0,1).join('')   
+    if(str2===letter){
         console.log('true')
         return true
 }

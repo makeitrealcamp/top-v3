@@ -17,16 +17,17 @@ function countAs (str) {
     return countAs(str,pos)
     function countAs(str,pos) {
         if (pos >= str.length) {
-            ///console.log(num)
+           // console.log(num)
             return num
         }
         if (str[pos] ==='a') {
             num++
         }
-        countAs(str,pos+1)
+        return countAs(str,pos+1)
     }
 }
 
 countAs("aaabbb"); // 3
 countAs("abc"); // 1
 countAs("zxy"); // 0
+console.log(countAs("aaabbb"))
