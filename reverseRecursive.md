@@ -1,6 +1,6 @@
 # Reverse String
 
-Write a function called `reverseString` that receives a string and returns a new String reversed.
+Write a function called `reverseString` that receives a string and returns the reversed string.
 
 **Note:** Use recursion to solve this exercise.
 

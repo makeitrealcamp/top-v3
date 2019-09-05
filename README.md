@@ -32,5 +32,5 @@
 
 1. [Add Numbers Of Array](addNumbersArray.md)
 2. [Add Numbers Of Nested Array](addNumbersNestedArray.md)
-3. [Harmonic Sum](harmonic.md)
+3. [Harmonic Sum](harmonicSum.md)
 4. [Reverse a String](reverseRecursive.md)
