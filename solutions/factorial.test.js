@@ -1,5 +1,6 @@
-// write your solution here
+// write recursive solution here
 
+// iterative solution here
 
 // tests
 test('factorial', function() {
