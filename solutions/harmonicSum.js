@@ -1,14 +1,11 @@
 function harmonicSum(num) {
-    num = parseInt(num)
-    if (num === 2) {
-        sum += 1.5
-        return sum
-    } else if (num === 1) {
-        sum = 1
-        return sum
+    // casos triviales
+    if (num < 1) {
+        return 0
     }
-    let sum = (1 / num) + harmonicSum(num - 1)
-    return sum
+
+    // caso general
+    return (1 / num) + harmonicSum(num - 1)
 }
 
-console.log(harmonicSum(4))
+console.log(harmonicSum(3))              
