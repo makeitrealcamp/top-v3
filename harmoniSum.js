@@ -1,4 +1,4 @@
-/*# Harmonic Sum
+/*# Harmonic Sum.js
 
 Write a function called `harmonicSum` that calculates the harmonic sum of n. The harmonic sum is the sum of reciprocals of the positive integers.
 

@@ -1,4 +1,4 @@
-/* # Add Numbers Of Nested Array
+/* # Add Numbers Of Nested Array exe
 
 Write a function `addNumsNestedArray` that receives an array of numbers and arrays, and returns the sum of all the numbers (including those in the nested arrays).
 

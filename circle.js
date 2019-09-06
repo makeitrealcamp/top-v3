@@ -1,5 +1,6 @@
 
-/* Write a constructor function called Circle that receives an argument called
+/* Sept 06 3 
+Write a constructor function called Circle that receives an argument called
 radius and initializes an attribute with the same name.
 Add a method called circunference that returns the circunference of the circle.
 Add a method called area that returns the area of the circle. */

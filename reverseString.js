@@ -1,4 +1,4 @@
-//rse String
+//rse String.js
 
  // Write a function called `reverseString` that receives a string and returns the reversed string.
 

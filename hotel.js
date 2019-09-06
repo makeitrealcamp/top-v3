@@ -50,6 +50,7 @@ function Hotel(num) {
             }
         }
     }
+}
 
 ​
 var Hotel = new Hotel(2);

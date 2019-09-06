@@ -1,3 +1,5 @@
+// sept 05 Selection
+
 function selectionSort(arr) {
    for (let i = 0; i < arr.length; i++) {
        let min = i; //Guarda el último valor del arreglo
