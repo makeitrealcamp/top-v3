@@ -34,3 +34,12 @@
 2. [Add Numbers Of Nested Array](addNumbersNestedArray.md)
 3. [Harmonic Sum](harmonicSum.md)
 4. [Reverse a String](reverseRecursive.md)
+
+## Sept 6, 2019 - Constructor functions
+
+1. [Person](person.md)
+2. [Square](square.md)
+3. [Circle](circle.md)
+4. [Node](node.md)
+5. [Hotel](hotel.md)
+6. [Maze](maze.md)
