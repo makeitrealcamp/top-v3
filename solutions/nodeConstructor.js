@@ -22,7 +22,7 @@ while (node.ref) {
 ```
 The objects created with the constructor function `Node` are going to be used in multiple data structures such as linked lists, trees, stacks, queues and graphs.*/
 
-function Node (value,ref=1) {
+function Node (value,ref) {
     this.value=value;
     this.ref=ref
 }

@@ -22,6 +22,9 @@ function Circle (radius) {
         return Math.PI*(Math.pow(this.radius,2))
     }
 }
+
+module.exports= Circle
+
 var circle = new Circle(3);
 console.log(circle.circunference()); // 2 * r * Pi
 console.log(circle.area()); // Pi * r^2)

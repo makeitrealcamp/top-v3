@@ -1,11 +1,21 @@
+// require module
+const Circle = require('./Circle');
 
+test('created object is not null', function() {
+  expect(new Circle()).not.toBeNull();   
+});
 
-//test('Create circle')
-// Circle object tests
-test('Area Circle', function() {
-    expect(factorial(4)).toBe(24);
-    expect(factorial(5)).toBe(120);
-    expect(factorial(6)).toBe(720);
-    expect(factorial(9)).toBe(362880);
-  });
+test('created object is initialized correctly', function() {
+  const circle= new Circle(5);
+  expect(circle.radius).tobe(5);
+})
+
+test('Area is calculated correctly', function() {
+  const circle= new Circle(5);
+  expect(circle.area()).toBeCloseTo(78.54)
+})
+test('Circunference  is calculated correctly', function() {
+  const circle= new Circle(5);
+  expect(circle.circunference()).toBeCloseTo(31.42)
+})
   

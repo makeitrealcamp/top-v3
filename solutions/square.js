@@ -21,7 +21,12 @@ function Square(side) {
     this.area = function() {
         return Math.pow(this.side,2)
     }
+    this.diagonal= function() {
+        return Math.sqrt(2)*this.side
+    }
 }
+
+module.exports = Square 
 
 var s1 = new Square(5);
 s1.perimeter(); // 20

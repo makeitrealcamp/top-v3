@@ -86,7 +86,7 @@ function Hotel (number) {
     function createRooms(number){
         let rooms=[];
         for (let i=1; i<=number;i++) {
-            const room =new Room(i)
+            const room = new Room(i)
             rooms.push(room)
           }
           return rooms
@@ -110,9 +110,12 @@ function Hotel (number) {
     
 }
 
+module.exports = {Hotel, Room}
+
 var hotel = new Hotel(2);
 console.log(hotel.rooms);
-console.log(hotel.getAvailableRooms());
+console.log(typeof(hotel.rooms[0]));
+/*console.log(hotel.getAvailableRooms());
 console.log(hotel.getOccupiedRooms()); // []
 console.log(hotel.checkin(1, 3)); // true
 console.log(hotel.checkin(1, 8)); // false (the room 1 is occupied)
@@ -123,4 +126,4 @@ console.log(hotel.checkout(1)); // false, (room 1 is available)
 console.log(hotel.checkout(4)); // false, (room 2 is available)
 
 console.log( hotel.getAvailableRooms());
-console.log( hotel.getOccupiedRooms()); // []
+console.log( hotel.getOccupiedRooms()); // []*/

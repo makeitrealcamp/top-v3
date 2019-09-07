@@ -25,7 +25,7 @@ p2.greet(p1); // "Hi Pedro, my name is Maria"
 ```
 */
 
-function Person(name,height,weight) {
+function Person(name,weight,height) {
     this.name=name;
     this.height=height;
     this.weight=weight;
@@ -33,9 +33,11 @@ function Person(name,height,weight) {
         return this.weight / Math.pow(height,2)
     }
     this.greet = function (person) {
-        return `"Hi ${person.name}, my name is ${this.name}"`
+        return `Hi ${person.name}, my name is ${this.name}`
     }
 }
+
+module.exports = Person; 
 
 var p1 = new Person("Pedro", 72, 1.5);
 console.log(p1.bmi()); // 32
