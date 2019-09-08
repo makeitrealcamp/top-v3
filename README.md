@@ -43,3 +43,5 @@
 4. [Node](node.md)
 5. [Hotel](hotel.md)
 6. [Maze](maze.md)
+7. [Linked List (Backed by an Array)](linkedListArray.md)
+8. [Linked List](linkedList.md)
