@@ -9,7 +9,6 @@
 //     retorne la lista mezclada
 
 function mergeSort(arr) {
-  console.log("array de entrada: ", arr);
   if (arr.length < 2) {
     return arr;
   } else {
@@ -41,27 +40,5 @@ function merge(l1, l2) {
   return arr.concat(l1.slice(i)).concat(l2.slice(j));
 }
 
-console.log("prueba: ", mergeSort([38, 27, 43, 3, 9, 82, 10]));
-console.log("prueba: ", mergeSort([2, 5, 1, 3, 7, 2, 3, 8, 6, 3]));
-
-// function merge(l1, l2) {
-//   var arr = [];
-//
-//   if((l1.length < 1) && (l2.length < 1)){
-//     return arr;
-//   }
-//
-//   if(l1[0] < l2[0]) {
-//     // console.log("r1: ", l1);
-//
-//     l1 = l1.splice(0, 1);
-//     arr.push(l1[0]);
-//     console.log(arr);
-//     return merge(l1, l2);
-//   } else {
-//     // console.log("r2: ", l2);
-//     l2 = l2.splice(0, 1);
-//     arr.push(l2[0]);
-//     return merge(l1, l2);
-//   }
-// }
+console.log(mergeSort([38, 27, 43, 3, 9, 82, 10]));
+console.log(mergeSort([2, 5, 1, 3, 7, 2, 3, 8, 6, 3]));
