@@ -52,3 +52,6 @@
 2. [Stack](stack.md)
 3. [Modificar Tower of Hanoi](hanoiStack.md)
 4. [Balanced Parenthesis](balancedParenthesis.md)
+5. [Traverse](traverse.md)
+6. [Search Tree](searchTree.md)
+7. [Inverse Tree](inverseTree.md). Bonus.
