@@ -45,3 +45,10 @@
 6. [Maze](maze.md)
 7. [Linked List (Backed by an Array)](linkedListArray.md)
 8. [Linked List](linkedList.md)
+
+## Sept 9, 2019
+
+1. [Queue](queue.md)
+2. [Stack](stack.md)
+3. [Modificar Tower of Hanoi](hanoiStack.md)
+4. [Balanced Parenthesis](balancedParenthesis.md)
