@@ -55,3 +55,9 @@
 5. [Traverse](traverse.md)
 6. [Search Tree](searchTree.md)
 7. [Inverse Tree](inverseTree.md). Bonus.
+
+## Sept 10, 2019
+
+1. [Unique BST](uniqueBST.md)
+2. [Search BST](searchBST.md)
+3. [Leetcode - Binary Tree Tilt](https://leetcode.com/problems/binary-tree-tilt/)
