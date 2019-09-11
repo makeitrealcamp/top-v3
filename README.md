@@ -66,3 +66,8 @@
 
 1. [Expresiones Regulares](regexp.md)
 2. [Juego de Regexp](http://play.inginf.units.it)
+3. [Defanging an IP Address - LeetCode](https://leetcode.com/problems/defanging-an-ip-address/)
+4. [Range Sum of BST - LeetCode](https://leetcode.com/problems/range-sum-of-bst/)
+5. [Unique Email Addresses - LeetCode](https://leetcode.com/problems/unique-email-addresses/)
+6. [Middle of the Linked List - LeetCode](https://leetcode.com/problems/middle-of-the-linked-list/)
+7. [Transpose Matrix - LeetCode](https://leetcode.com/problems/transpose-matrix/)
