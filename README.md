@@ -61,3 +61,8 @@
 1. [Unique BST](uniqueBST.md)
 2. [Search BST](searchBST.md)
 3. [Leetcode - Binary Tree Tilt](https://leetcode.com/problems/binary-tree-tilt/)
+
+## Sept 11, 2019
+
+1. [Expresiones Regulares](regexp.md)
+2. [Juego de Regexp](http://play.inginf.units.it)
