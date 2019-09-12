@@ -71,3 +71,12 @@
 5. [Unique Email Addresses - LeetCode](https://leetcode.com/problems/unique-email-addresses/)
 6. [Middle of the Linked List - LeetCode](https://leetcode.com/problems/middle-of-the-linked-list/)
 7. [Transpose Matrix - LeetCode](https://leetcode.com/problems/transpose-matrix/)
+
+## Sept 12, 2019
+
+1. [HashTable](hashTable.md)
+2. [Frequencies Of Chars](frequencies.md)
+3. [Most Frequent Element](mostFrequent.md)
+4. [Repeated Characters (Optimized)](repeatedCharsOpt.md)
+5. [Num Duplicated](numDuplicated.md)
+6. [Caesar Cipher](caesar.md). Optional.
