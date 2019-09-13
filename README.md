@@ -80,3 +80,8 @@
 4. [Repeated Characters (Optimized)](repeatedCharsOpt.md)
 5. [Num Duplicated](numDuplicated.md)
 6. [Caesar Cipher](caesar.md). Optional.
+
+## Sept 13, 2019
+
+1. [Shortest Path](shortestPath.md)
+1. [Maze with Obstacles](mazeObs.md)
